@@ -1,0 +1,17 @@
+{
+  "name": "mongodb_withmongoshell",
+  "version": "1.0.0",
+  "description": "MongoDB with Shell",
+  "main": "db.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "Yaakov Misao",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.0",
+    "nodemon": "^2.0.20"
+  }
+}
